@@ -12,23 +12,25 @@
 1. หลังจากต่อตัวอุปกรณ์เรียบร้อย จะทำการอัพโหลดโปรแกรม โดยใช้คำสั่ง pio run -t upload
 2. กดปุ่มทั้ง 2 ปุ่มระหว่างรันโปรแกรม เพื่อทำการอัพโหลดโปรแกรม
 3. เมื่ออัพโหลดเสร็จสิ้นก็สามารถทำการรันโปรแกรมได้โดยการใช้คำสั่ง pio device monitor
+<img width="1432" alt="ภาพหน้าจอ" src="https://user-images.githubusercontent.com/80881019/112384915-8cc3a000-8d21-11eb-8a22-aa9173e6107e.png">
+
 4. โปรแกรมจะทำการรันตามคำสั่ง
-  #include <Arduino.h>
+       #include <Arduino.h>
 
-  int cnt = 0;
+       int cnt = 0;
 
-  void setup()
-  {
-    Serial.begin(115200);
-  }
+       void setup()
+       {
+         Serial.begin(115200);
+       }
 
-  void loop()
-  {
-    cnt++;
-    Serial.printf("PATTANI :%d\n",cnt);
-    delay(1000);
-  }
- หากต้องการเริ่มใหม่ให้กดปุ่มสีแดง
+       void loop()
+       {
+         cnt++;
+         Serial.printf("PATTANI :%d\n",cnt);
+         delay(1000);
+       }
+5. หากต้องการเริ่มใหม่ให้กดปุ่มสีแดง
  
 ## การบันทึกผลการทดลอง 
 โปรแกรมจะทำการนับเพิ่มขึ้นทีละ 1 ทุกๆวินาที
