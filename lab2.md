@@ -42,8 +42,8 @@ https://www.youtube.com/watch?v=yBjab0UNuB8
     }
     Serial.println("\n\n");
   }
-  <img width="1428" alt="image" src="https://user-images.githubusercontent.com/80881019/112375932-6cdaaf00-8d16-11eb-98f9-44c2068e21f4.png">
-<img width="1428" alt="ภาพหน้าจอ 2564-03-25 เวลา 02 59 02" src="https://user-images.githubusercontent.com/80881019/112375991-7ebc5200-8d16-11eb-81fd-b26051d0ad09.png">
+ 
+<img width="1428" alt="ภาพหน้าจอ 2564-03-25 " src="https://user-images.githubusercontent.com/80881019/112375991-7ebc5200-8d16-11eb-81fd-b26051d0ad09.png">
 
 2. กดปุ่มทั้งสองเพื่อทำการอัพโหลดหลังรันคำสั่งอัพโหลด
 3. ใช้คำสั่ง pio device monitor เพื่อแสดงผลการค้นหาwifi
