@@ -30,6 +30,8 @@
          Serial.printf("PATTANI :%d\n",cnt);
          delay(1000);
        }
+    <img width="1342" alt="ภาพหน้าจอ " src="https://user-images.githubusercontent.com/80881019/112385336-13787d00-8d22-11eb-96b1-e14b80a141f3.png">
+
 5. หากต้องการเริ่มใหม่ให้กดปุ่มสีแดง
  
 ## การบันทึกผลการทดลอง 
