@@ -16,30 +16,30 @@ https://www.youtube.com/watch?v=CCnN1WJsXQY
 2. อัพโหลดโปรแกรมลงไมโครคอนโทรลเลอร์ โดยใช้คำสั่ง pio run -t upload หลังจากนั้นก็ทำการกดปุ่มสองปุ่มที่ตัวซีเรียล เพื่อทำการรับการอัพโหลดโปรแกรม
 <img width="1430" alt="ภาพหน้าจอ  " src="https://user-images.githubusercontent.com/80881019/112381211-e8d7f580-8d1c-11eb-95f3-b59b2aad4a21.png">
 
-#include <Arduino.h>
-#include <ESP8266WiFi.h>
+		#include <Arduino.h>
+		#include <ESP8266WiFi.h>
 
-int cnt = 0;
+		int cnt = 0;
 
-void setup()
-{
-	Serial.begin(115200);
-	pinMode(0, OUTPUT);
-	Serial.println("\n\n\n");
-}
+		void setup()
+		{
+			Serial.begin(115200);
+			pinMode(0, OUTPUT);
+			Serial.println("\n\n\n");
+		}
 
-void loop()
-{
-	cnt++;
-	if(cnt % 2) {
-		Serial.println("========== ON ===========");
-		digitalWrite(0, HIGH);
-	} else {
-		Serial.println("========== OFF ===========");
-		digitalWrite(0, LOW);
-	}
-	delay(500);
-}
+		void loop()
+		{
+			cnt++;
+			if(cnt % 2) {
+				Serial.println("========== ON ===========");
+				digitalWrite(0, HIGH);
+			} else {
+				Serial.println("========== OFF ===========");
+				digitalWrite(0, LOW);
+			}
+			delay(500);
+		}
 4. ใช้คำสั่ง pio device monitor เพื่อดูผลการรัน
 <img width="1429" alt="ภาพหน้าจอ " src="https://user-images.githubusercontent.com/80881019/112382524-8b44a880-8d1e-11eb-8ea8-63bdb345201c.png">
 
