@@ -57,14 +57,14 @@ https://www.youtube.com/watch?v=nFqoZT26U5k
 จากการืดลองเรานำสายสีขาวไปแตะสายสีดำทำให้สัญญาณอินพุตเป็น 0 ไฟจึงติด เช่นเดียวกับการ กดปุ่มสีดำที่ตัวซีเรียล และ การไม่บังเซนเซอร์รับแสง แต่ถ้าหากทำให้สัญญาณอินพุตเป็น 1 จะทำให้ไฟดับโดยการเอามือบังเซนเซอร์รับแสง
 ## คำถามหลังการทดลอง
 * Q: ถ้่าหากเราเปลี่ยนเงื่อนไข
-                                                void loop()
-                                                      {
-                                                        int val = digitalRead(0);
-                                                        Serial.printf("======= read %d\n", val);
-                                                        if(val==0) {
-                                                          digitalWrite(2, LOW);
-                                                        } else {
-                                                          digitalWrite(2, HIGH);
-                                                        }
-       จะเกิดอะไรขึ้น
+void loop() 
+        { 
+          int val = digitalRead(0); 
+          Serial.printf("======= read %d\n", val);  
+          if(val==1) {  
+            digitalWrite(2, LOW); 
+          } else {  
+            digitalWrite(2, HIGH);  
+          }}  
+       จะเกิดอะไรขึ้น 
 * A: เมื่อพอตศูนย์เป็น 0 ไฟจะติด และเมื่อเป็น 1 ไฟจะดับ
