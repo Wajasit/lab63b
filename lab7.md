@@ -13,9 +13,9 @@
  7. หลอด LED สีเขียว ความยาวคลื่น 500 - 530 นาโนเมตร
 
 ## แหล่งข้อมูลเพื่อการศึกษา
-https://www.svgroup.co.th/blog/ปลูกพืชด้วยแสงประดิษฐ์/
-https://huaysaiagricultural.wixsite.com/mysite/blank-1
-https://gla.reru.ac.th/documents/KruPraphasArduinoBook.pdf
+* https://www.svgroup.co.th/blog/ปลูกพืชด้วยแสงประดิษฐ์/
+* https://huaysaiagricultural.wixsite.com/mysite/blank-1
+* https://gla.reru.ac.th/documents/KruPraphasArduinoBook.pdf
 
 ## วิธีการทำการทดลอง
 1. ในการทดลองจะใช้ตัว LED ทั้งหมด 3 สี คือ แดง น้ำเงินม่วง เขียว ซึ่งในแต่ละสีจะมีผลต่การเจริญเติบโตของพืชที่แตกต่างกันในแต่ละสี
